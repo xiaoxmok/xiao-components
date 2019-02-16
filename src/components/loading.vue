@@ -15,7 +15,7 @@
             show: Boolean,
             text: {
                 type: String,
-                default: '正在加载中...'
+                default: '请稍候，正在加载中...'
             },
         }
     }
