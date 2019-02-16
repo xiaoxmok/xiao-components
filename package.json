@@ -1,5 +1,5 @@
 {
-  "name": "xiao-components",
+  "name": "@xiaoxm_ok/xiao-components",
   "version": "1.0.0",
   "description": "xiao components",
   "main": "src/index.js",
@@ -10,5 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "vue": "^2.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxmok/xiao-components.git"
   }
 }
