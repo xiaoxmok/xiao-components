@@ -10,7 +10,7 @@ export default {
             $vm = new LoadingPlugin({
                 el: document.createElement('div')
             })
-            document.body.appendChild($vm.el)
+            document.body.appendChild($vm.$el)
         }
 
         $vm.show = false
