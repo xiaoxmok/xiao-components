@@ -18,7 +18,9 @@ export default {
         let loading = {
             show(text) {
                 $vm.show = true
-                $vm.text = text
+                if(text){
+                    $vm.text = text
+                }
             },
             hide() {
                 $vm.show = false
