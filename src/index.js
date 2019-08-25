@@ -32,7 +32,7 @@ export default {
         }
 
         // Vue.prototype.$loading = Vue.$loading
-
+        console.log('测试一下')
         Vue.mixin({
             created() {
                 this.$loading = Vue.$loading
